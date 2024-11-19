@@ -44,8 +44,31 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_isblank.c	\
 			lib/my_iscntrl.c	\
 			lib/my_isdigit.c	\
+			lib/my_localeconv.c	\
+			lib/my_putc.c	\
+			lib/my_putchar.c	\
+			lib/my_putenv.c	\
+			lib/my_puts.c	\
 			lib/my_read.c	\
+			lib/my_sin.c	\
 			lib/my_sqrt.c	\
+			lib/my_strcasecmp.c	\
+			lib/my_strcat.c	\
+			lib/my_strchr.c	\
+			lib/my_strcmp.c	\
+			lib/my_strcoll.c	\
+			lib/my_strcpy.c	\
+			lib/my_strcspn.c	\
+			lib/my_strerror.c	\
+			lib/my_strlen.c	\
+			lib/my_toascii.c	\
+			lib/my_tolower.c	\
+			lib/my_toupper.c	\
+			lib/my_towctrans.c	\
+			lib/my_towlower.c	\
+			lib/my_towupper.c	\
+			lib/my_wctrans.c	\
+			lib/my_write.c	\
 			main.c
 
 OBJS =	$(SRCS:.c=.o)
