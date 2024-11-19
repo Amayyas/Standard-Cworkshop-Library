@@ -12,6 +12,8 @@
 
     #define BUFFER_SIZE 26
 
+    #define WCTRANS_TOLOWER 1
+    #define WCTRANS_TOUPPER 2
 
     #include <stdlib.h>
     #include <math.h>
@@ -30,6 +32,7 @@
     #include <regex.h>
     #include <sys/syscall.h>
     #include <unistd.h>
+    #include <limits.h>
 
 
 int my_abs(int nb);
@@ -62,7 +65,29 @@ int my_isascii(int c);
 int my_isblank(int c);
 int my_iscntrl(int c);
 int my_isdigit(int c);
+struct lconv *my_localeconv(void);
+int my_putc(int c, FILE *stream);
+int my_putchar(int c);
+int my_puts(const char *string);
+int my_putenv(const char *varname);
 ssize_t my_read(int fd, void *buf, size_t count);
+double my_sin(double x);
 double my_sqrt(double x);
+int my_strcasecmp(const char *string1, const char *string2);
+char *my_strcat(char *string1, const char *string2);
+char *my_strchr(const char *string, int c);
+int my_strcmp(const char *string1, const char *string2);
+int my_strcoll(const char *string1, const char *string2);
+char *my_strcpy(char *string1, const char *string2);
+size_t my_strcspn(const char *string1, const char *string2);
+char *my_strerror(int errnum);
+size_t my_strlen(const char *string);
+int my_toascii(int c);
+int my_tolower(int c);
+int my_toupper(int c);
+wint_t my_towctrans(wint_t wc, wctrans_t desc);
+wint_t my_towlower(wint_t wc);
+wint_t my_towupper(wint_t wc);
+ssize_t my_write(int fd, const void *buf, size_t count);
 
 #endif
