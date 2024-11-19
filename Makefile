@@ -38,6 +38,12 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_fgets.c	\
 			lib/my_fread.c	\
 			lib/my_getc.c	\
+			lib/my_isalnum.c	\
+			lib/my_isalpha.c	\
+			lib/my_isascii.c	\
+			lib/my_isblank.c	\
+			lib/my_iscntrl.c	\
+			lib/my_isdigit.c	\
 			lib/my_read.c	\
 			lib/my_sqrt.c	\
 			main.c
