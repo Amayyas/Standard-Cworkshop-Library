@@ -56,6 +56,12 @@ int my_fgetc(FILE *stream);
 char *my_fgets(char *string, int n, FILE *stream);
 size_t my_fread(void *ptr, size_t size, size_t count, FILE *stream);
 int my_getc(FILE *stream);
+int my_isalnum(int c);
+int my_isalpha(int c);
+int my_isascii(int c);
+int my_isblank(int c);
+int my_iscntrl(int c);
+int my_isdigit(int c);
 ssize_t my_read(int fd, void *buf, size_t count);
 double my_sqrt(double x);
 
