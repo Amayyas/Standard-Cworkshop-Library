@@ -34,6 +34,9 @@
     #include <unistd.h>
     #include <limits.h>
     #include <errno.h>
+    #include <sys/types.h>
+    #include <sys/stat.h>
+    #include <fcntl.h>
 
 
 int my_abs(int nb);
@@ -85,6 +88,12 @@ char *my_strcpy(char *string1, const char *string2);
 size_t my_strcspn(const char *string1, const char *string2);
 char *my_strerror(int errnum);
 size_t my_strlen(const char *string);
+int my_strncasecmp(const char *string1, const char *string2, size_t count);
+char *my_strncat(char *string1, const char *string2, size_t count);
+int my_strncmp(const char *string1, const char *string2, size_t count);
+char *my_strncpy(char *string1, const char *string2, size_t count);
+char *my_strpbrk(const char *string1, const char *string2);
+char *my_strptime(const char *buf, const char *format, struct tm *tm);
 int my_toascii(int c);
 int my_tolower(int c);
 int my_toupper(int c);
