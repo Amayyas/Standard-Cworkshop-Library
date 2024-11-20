@@ -34,6 +34,7 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_exp.c	\
 			lib/my_fabs.c	\
 			lib/my_fclose.c	\
+			lib/my_ferror.c	\
 			lib/my_fgetc.c	\
 			lib/my_fgets.c	\
 			lib/my_fread.c	\
@@ -45,6 +46,7 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_iscntrl.c	\
 			lib/my_isdigit.c	\
 			lib/my_localeconv.c	\
+			lib/my_perror.c	\
 			lib/my_putc.c	\
 			lib/my_putchar.c	\
 			lib/my_putenv.c	\

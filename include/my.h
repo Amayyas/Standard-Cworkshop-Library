@@ -33,6 +33,7 @@
     #include <sys/syscall.h>
     #include <unistd.h>
     #include <limits.h>
+    #include <errno.h>
 
 
 int my_abs(int nb);
@@ -55,6 +56,7 @@ double my_cosh(double x);
 double my_exp(double x);
 double my_fabs(double x);
 int my_fclose(FILE *stream);
+int my_ferror(FILE *stream);
 int my_fgetc(FILE *stream);
 char *my_fgets(char *string, int n, FILE *stream);
 size_t my_fread(void *ptr, size_t size, size_t count, FILE *stream);
@@ -66,6 +68,7 @@ int my_isblank(int c);
 int my_iscntrl(int c);
 int my_isdigit(int c);
 struct lconv *my_localeconv(void);
+void my_perror(const char *string);
 int my_putc(int c, FILE *stream);
 int my_putchar(int c);
 int my_puts(const char *string);
