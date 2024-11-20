@@ -63,6 +63,11 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_strcspn.c	\
 			lib/my_strerror.c	\
 			lib/my_strlen.c	\
+			lib/my_strncasecmp.c	\
+			lib/my_strncat.c	\
+			lib/my_strncmp.c	\
+			lib/my_strncpy.c	\
+			lib/my_strpbrk.c	\
 			lib/my_toascii.c	\
 			lib/my_tolower.c	\
 			lib/my_toupper.c	\
