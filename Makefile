@@ -46,6 +46,11 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_iscntrl.c	\
 			lib/my_isdigit.c	\
 			lib/my_localeconv.c	\
+			lib/my_memchr.c	\
+			lib/my_memcmp.c	\
+			lib/my_memcpy.c	\
+			lib/my_memmove.c	\
+			lib/my_memset.c	\
 			lib/my_perror.c	\
 			lib/my_putc.c	\
 			lib/my_putchar.c	\
