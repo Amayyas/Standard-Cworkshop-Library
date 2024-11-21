@@ -9,7 +9,7 @@
 
 int my_strncmp(const char *string1, const char *string2, size_t count)
 {
-    int i = 0;
+    size_t i = 0;
     int res = 0;
 
     while (i < count) {
