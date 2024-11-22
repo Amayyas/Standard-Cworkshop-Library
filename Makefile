@@ -45,6 +45,8 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_isblank.c	\
 			lib/my_iscntrl.c	\
 			lib/my_isdigit.c	\
+			lib/my_islower.c	\
+			lib/my_isupper.c	\
 			lib/my_localeconv.c	\
 			lib/my_memchr.c	\
 			lib/my_memcmp.c	\
@@ -73,6 +75,16 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_strncmp.c	\
 			lib/my_strncpy.c	\
 			lib/my_strpbrk.c	\
+			lib/my_strrchr.c	\
+			lib/my_strspn.c	\
+			lib/my_strstr.c	\
+			lib/my_strtod.c	\
+			lib/my_strtof.c	\
+			lib/my_strtok_r.c	\
+			lib/my_strtok.c	\
+			lib/my_strtol.c	\
+			lib/my_strtold.c	\
+			lib/my_strtoul.c	\
 			lib/my_toascii.c	\
 			lib/my_tolower.c	\
 			lib/my_toupper.c	\
