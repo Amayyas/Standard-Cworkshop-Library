@@ -58,6 +58,7 @@ SRCS	=	lib/my_abs.c	\
 			lib/my_putchar.c	\
 			lib/my_putenv.c	\
 			lib/my_puts.c	\
+			lib/my_rand.c	\
 			lib/my_read.c	\
 			lib/my_sin.c	\
 			lib/my_sqrt.c	\
